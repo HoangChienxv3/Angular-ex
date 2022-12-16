@@ -1,0 +1,15 @@
+<p>account-detail works!</p>
+<div>
+    <div>
+        <p>Id: {{user.id}}</p>
+        <p>UserName: {{user.username}}</p>
+        <p>Name: {{user.name}}</p>
+        <img src='{{user.avatar}}'>
+    </div>
+    <div>
+        <button routerLink="edit/{{user.id}}">
+            edit
+        </button>
+    </div>
+
+</div>

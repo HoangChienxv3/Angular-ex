@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header' 'content content content content content' 'footer footer footer footer footer';
+}
+
+.header {
+    grid-area: header;
+    width: 100%;
+    background-color: yellow;
+}
+
+.sidebar-1 {
+    grid-area: sidebar-1;
+    background-color: pink;
+}
+
+.sidebar-2 {
+    grid-area: sidebar-2;
+    background-color: lightgreen;
+}
+
+.content {
+    grid-area: content;
+    background-color: #BB8FCE;
+}
+
+.footer {
+    grid-area: footer;
+    border: 1px dashed #AAA;
+}

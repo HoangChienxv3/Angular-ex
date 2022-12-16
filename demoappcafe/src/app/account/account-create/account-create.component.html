@@ -1,0 +1,19 @@
+<p>account-create works!</p>
+<div style="padding-left: 50px;">
+    <form [formGroup]="formCreate" (ngSubmit)="onSubmitCreate()">
+        <span>username:</span><br>
+        <input type="text" name="username" id="username" formControlName="username">
+        <br>
+        <span>name:</span><br>
+        <input type="text" name="name" id="name" formArrayName="name">
+        <br>
+        <span>password:</span><br>
+        <input type="password" name="password" id="password" formControlName="password">
+        <br>
+        <span>avatar:</span><br>
+        <input type="text" name="avatar" id="avatar" formControlName="avatar">
+        <br>
+        <br>
+        <button type="submit">Create</button>
+    </form>
+</div>
